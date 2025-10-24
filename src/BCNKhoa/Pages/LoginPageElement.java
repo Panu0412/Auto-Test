@@ -30,5 +30,7 @@ public class LoginPageElement {
     	    By.xpath("/html/body/div[2]/main/div/nav/div/ul/li[3]/a/div/img");
     public static final By LOGOUT_BUTTON = By.xpath("/html/body/div[2]/main/div/nav/div/ul/li[3]/div/ul[2]/li/a");
     
+
+
 }
 

@@ -17,4 +17,9 @@ public class UpdatePersonalElement {
     public static final By ERROR_MESSAGE = By.id("valid-infoma");
   //SDT
     public static final By SDT = By.id("infodienthoai");
+  //Avata
+    public static final By AVATAR_BUTTON = 
+    	    By.xpath("/html/body/div[2]/main/div/nav/div/ul/li[3]/a/div/img");
+   
+
 }

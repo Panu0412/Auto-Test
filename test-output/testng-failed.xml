@@ -3,14 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BCNKhoa.Testcase.F_11_3">
+      <class name="BCNKhoa.Testcase.TTCN_TC">
         <methods>
-          <include name="ReadPhonesFromJson_And_Update"/>
-          <include name="TC04"/>
+          <include name="ChonNganh_TC"/>
           <include name="teardown"/>
+          <include name="beforeEach"/>
+          <include name="classSetup"/>
+          <include name="afterEach"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- BCNKhoa.Testcase.F_11_3 -->
+      </class> <!-- BCNKhoa.Testcase.TTCN_TC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
